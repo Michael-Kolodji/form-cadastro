@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+	    <link rel="stylesheet" type="text/css" href="style/style.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	    
+	    <title>FácilPay - Formulário Dados Cliente</title>
+	    <link rel="icon" type="image/x-icon" href="style/images/favicon.png">
+
+	</head>
+	<body>
+		<div class="jumbotron text-left top">
+			<h3>Formulário Dados Cliente</h3>
+		</div>
+		<div class="container">
+			<h4>
+				<small class="text-muted">Dados Pessoais</small>
+			</h4>
+			<div class="form-group col-lg-12 col-md-12 col-sm-12">
+				<div class="form-row col-lg-12 col-md-12 col-sm-12">
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<label class="control-label label" for="name">Nome</label>
+						<input type="text" name="name" class="form-control">
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<label class="control-label label" for="dateOfBirth">Data de Nascimento</label>
+						<input type="date" name="dateOfBirth" class="form-control">
+					</div>			
+					<div class="col-lg-2 col-md-4 col-sm-12">
+						<label class="control-label label" for="sex">Gênero</label>
+						<div class="form-check form-check-inline radio-content">
+							<input type="radio" name="sex" value="sexMasc" class="form-check-input">	
+							<label class="form-check-label radio-label" for="sexMasc">Masc</label>
+
+							<input type="radio" name="sex" value="sexFem" class="form-check-input">	
+							<label class="form-check-label radio-label" for="sexFem">Fem</label>
+						</div>			
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-12">
+						<label class="control-label label" for="email">E-mail</label>
+						<input type="text" name="email" class="form-control">
+					</div>
+				</div>
+
+				<div class="form-row col-lg-12 col-md-12 col-sm-12">
+					<div class="col-lg-2 col-md-4 col-sm-12">
+						<label class="control-label label" for="cpf">CPF</label>
+						<input type="text" name="cpf" class="form-control">
+					</div>
+					<div class="col-lg-2 col-md-4 col-sm-12">
+						<label class="control-label label" for="rg">RG</label>
+						<input type="text" name="rg" class="form-control">
+					</div>
+					<div class="col-lg-2 col-md-4 col-sm-12">
+						<label class="control-label label" for="emss">Órgão emissor</label>
+						<input type="text" name="emss" class="form-control">
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-12">
+						<label class="control-label label" for="emss-date">Data de emissão</label>
+						<input type="date" name="emss-date" class="form-control">
+					</div>
+					<div class="col-lg-1 col-md-1 col-sm-3">
+						<label class="control-label label" for="ddi">DDI</label>
+						<input type="number" name="ddi" class="form-control">
+					</div>
+					<div class="col-lg-1 col-md-1 col-sm-3">
+						<label class="control-label label" for="ddd">DDD</label>
+						<input type="number" name="ddd" class="form-control">
+					</div>
+					<div class="col-lg-2 col-md-4 col-sm-12">
+						<label class="control-label label" for="phone">Telefone</label>
+						<input type="text" name="phone" class="form-control">
+					</div>
+				</div>
+
+				<br>
+				<h5>
+					<small class="text-muted">Endereço</small>
+				</h5>
+				<div class="form-row col-lg-12 col-md-12 col-sm-12">					
+					<div class="col-lg-2 col-md-2 col-sm-9">
+						<label class="control-label label" for="cep">CEP</label>
+						<input type="text" name="cep" class="form-control">
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-9">
+						<label class="control-label label" for="public-place">Logradouro</label>
+						<input type="text" name="public-place" class="form-control">
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-3">
+						<label class="control-label label" for="number">Número</label>
+						<input type="number" name="number" class="form-control">
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-3">
+						<label class="control-label label" for="cmplt">Complemento</label>
+						<input type="text" name="cmplt" class="form-control">
+					</div>
+				</div>	
+				<div class="form-row col-lg-12 col-md-12 col-sm-12">	
+					<div class="col-lg-3 col-md-4 col-sm-3">
+						<label class="control-label label" for="neighborhood">Bairro</label>
+						<input type="text" name="neighborhood" class="form-control">
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<label class="control-label label" for="city">Cidade</label>
+						<input type="text" name="city" class="form-control">
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<label class="control-label label" for="state">Estado</label>
+						<input type="text" name="state" class="form-control">
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<label class="control-label label" for="country">País</label>
+						<input type="text" name="country" class="form-control">
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
